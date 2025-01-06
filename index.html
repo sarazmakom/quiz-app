@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Friends Quiz App</title>
     <link rel="stylesheet" href="./styles.css" />
+    <script src="./index.js"></script>
   </head>
   <body>
     <header class="header">
@@ -16,15 +17,24 @@
                   FIRST CARD
                 -->
         <li class="card-list__item">
-          <article class="card">
+          <article class="card" data-js="card">
             <h2 class="card__question">
               What is the name of the coffee shop where the Friends gang
               frequently hangs out?
             </h2>
-            <button class="card__button-answer" type="button">
+            <button
+              class="card__button-answer"
+              type="button"
+              data-js="answer-button"
+            >
               Show answer
             </button>
-            <p class="card__answer card__answer--active">Central Perk</p>
+            <p
+              class="card__answer card__answer--active"
+              data-js="answer-display"
+            >
+              Central Perk
+            </p>
             <ul class="card__tag-list">
               <li class="card__tag-list-item">#centralpark</li>
               <li class="card__tag-list-item">#parkcentral</li>
