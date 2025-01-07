@@ -5,9 +5,11 @@
   left: 0;
   width: 100%;
   padding: 2rem 0;
-  background: var(--background);
+  background: rgb(239, 137, 166);
   border-bottom: 1px solid var(--foreground);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: Agu Display;
+  font-size: 22px;
 }
 
 .header__title {
