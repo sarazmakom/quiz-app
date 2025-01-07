@@ -10,10 +10,11 @@ answerButton.addEventListener("click", () => {
   );
 
   if (isAnswerVisible) {
-    answerDisplay.classList.remove("card__answer--active");
+    // answerDisplay.classList.remove("card__answer--active");
     answerButton.textContent = "Show answer";
   } else {
-    answerDisplay.classList.add("card__answer--active");
+    // answerDisplay.classList.add("card__answer--active");
     answerButton.textContent = "Hide answer";
   }
+  answerDisplay.classList.toggle("card__answer--active");
 });
