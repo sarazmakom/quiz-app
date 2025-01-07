@@ -18,3 +18,11 @@ answerButton.addEventListener("click", () => {
   }
   answerDisplay.classList.toggle("card__answer--active");
 });
+
+// console.log("card", card);
+
+document.body.addEventListener("mousemove", (e) => {
+  const x = (e.clientX / window.innerWidth) * 100; // Horizontal % of mouse position
+  const y = (e.clientY / window.innerHeight) * 100; // Vertical % of mouse position
+  document.body.style.background = `linear-gradient(${x}deg,rgb(189, 113, 236), #fad0c4)`;
+});
